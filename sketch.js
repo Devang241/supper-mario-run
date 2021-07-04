@@ -125,7 +125,7 @@ function draw() {
     gameOver.visible=true;
     restart.visible=true;
 
-    
+
     backgroung.velocityX = 0;
     boy.velocityY = 0;
     enemyGroup.setVelocityXEach(0);
@@ -218,6 +218,7 @@ function reset(){
   gameOver.visible=false;
   restart.visible=false;
   score=0;
+  coinn=0;
   enemyGroup.destroyEach();
   FlyEnemyGroup.destroyEach();
 }
